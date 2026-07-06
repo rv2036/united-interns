@@ -1,0 +1,26 @@
+# 2026 年 04 月进展 - 实习生
+
+实习生进展月度汇总
+
+## Yranger
+
+### mentor : Hongbin Zhang
+
+### 本月工作总结
+
+**工作一：**
+
+- 将32位 XTAME Dialect 增加了新的指令设计实现，提高了指令覆盖率。
+
+- 在针对 XTAME Dialect 实现了将 matmul 算子操作从 linalg 方言转换为 XTAME 方言的 Lowering 实现。
+
+- 根据老师的修改建议，将复杂的代码进行优化，极大地减小了代码的复杂程度，利用类来减小代码的重复工作，并编译通过。
+
+### 本月提交的PR
+
+- https://github.com/buddy-compiler/buddy-mlir/pull/791
+
+### 本月合并的PR
+
+- https://github.com/buddy-compiler/buddy-mlir/pull/755
+- https://github.com/buddy-compiler/buddy-mlir/pull/771
